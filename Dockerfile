@@ -9,5 +9,4 @@ COPY sum.rb .
 RUN apk update && \
     apk add ruby
 
-# this line could also be included
-# ENTRYPOINT ruby sum.rb
+ENTRYPOINT ["ruby", "sum.rb"]
