@@ -2,7 +2,7 @@ name: Build and upload the Docker image to GHCR
 
 on:
   push:
-    branches: master
+    branches: main
     paths:
       - sum.rb
       - Dockerfile
