@@ -1,6 +1,6 @@
 # A simple Dockerfile to get the script `sum.rb` to run in a container.
 
-FROM alpine:3.19
+FROM alpine:3.20
 
 WORKDIR /app
 
